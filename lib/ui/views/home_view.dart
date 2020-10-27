@@ -15,12 +15,12 @@ class _HomeViewState extends State<HomeView> {
   String soil_serial = "";
   String soil_value = "";
   String soil_status = "";
-
+  
   String pompa_serial = "";
   String pompa_value = "";
-  final String userQueue = "testdummy";
-  final String passQueue = "testdummy123";
-  final String VhostQueue = "/testdummy";
+  final String userQueue = "smkarrahmahcianjur";
+  final String passQueue = "qwerty";
+  final String VhostQueue = "/smkarrahmahcianjur";
   final String hostQueue = "rmq2.pptik.id";
   void data() {
     ConnectionSettings settings = new ConnectionSettings(
@@ -108,7 +108,7 @@ class _HomeViewState extends State<HomeView> {
             "Soil Moisture",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontFamily: 'MuliFont',
+                
                 fontSize: 30),
           ),
           SizedBox(
@@ -118,12 +118,12 @@ class _HomeViewState extends State<HomeView> {
             "Serial Device",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontFamily: 'MuliFont',
+                
                 fontSize: 20),
           ),
           Text(
             "$soil_serial",
-            style: TextStyle(fontFamily: 'MuliFont', fontSize: 18),
+            style: TextStyle( fontSize: 18),
           ),
           SizedBox(
             height: 15,
@@ -132,12 +132,12 @@ class _HomeViewState extends State<HomeView> {
             "Value",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontFamily: 'MuliFont',
+                
                 fontSize: 20),
           ),
           Text(
             "$soil_value",
-            style: TextStyle(fontFamily: 'MuliFont', fontSize: 18),
+            style: TextStyle( fontSize: 18),
           ),
           SizedBox(
             height: 15,
@@ -145,13 +145,12 @@ class _HomeViewState extends State<HomeView> {
           Text(
             "Status",
             style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontFamily: 'MuliFont',
-                fontSize: 20),
+                fontWeight: FontWeight.bold,   
+            )
           ),
           Text(
             "$soil_status",
-            style: TextStyle(fontFamily: 'MuliFont', fontSize: 18),
+            style: TextStyle( fontSize: 18),
           ),
           SizedBox(
             height: 40,
@@ -160,7 +159,7 @@ class _HomeViewState extends State<HomeView> {
             "Pompa",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontFamily: 'MuliFont',
+                
                 fontSize: 30),
           ),
           SizedBox(
@@ -170,12 +169,12 @@ class _HomeViewState extends State<HomeView> {
             "Serial Device",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontFamily: 'MuliFont',
+                
                 fontSize: 20),
           ),
           Text(
             "$pompa_serial",
-            style: TextStyle(fontFamily: 'MuliFont', fontSize: 18),
+            style: TextStyle( fontSize: 18),
           ),
           SizedBox(
             height: 15,
@@ -184,12 +183,12 @@ class _HomeViewState extends State<HomeView> {
             "Status",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontFamily: 'MuliFont',
+                
                 fontSize: 20),
           ),
           Text(
             "$pompa_value",
-            style: TextStyle(fontFamily: 'MuliFont', fontSize: 18),
+            style: TextStyle( fontSize: 18),
           ),
         ],
       ),

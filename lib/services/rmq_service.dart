@@ -26,4 +26,6 @@ class RMQService{
 
     return payload;
   }
+
+  
 }
